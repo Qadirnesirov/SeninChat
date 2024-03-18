@@ -4,14 +4,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", 27353035))
-API_HASH = getenv("API_HASH", "cf2a75861140ceb746c7796e07cbde9e")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", "5822700831"))
-MONGO_URL = getenv("MONGO_URL", None)
+API_ID = int(getenv("API_ID", 24066716))
+API_HASH = getenv("API_HASH", "09e30e6e0b1a4c71e43a055979c51b3b")
+BOT_TOKEN = getenv("BOT_TOKEN", "7065652833:AAFRb_StawRF5jxrO_8H__6pFbI81QvSn_w")
+OWNER_ID = int(getenv("OWNER_ID", "6820427851"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://jaspperx:jaspperx123@gaddar.wujzbos.mongodb.net/?retryWrites=true&w=majority&appName=Gaddar")
 SUPPORT_GRP = getenv("SUPPORT_GRP", "Venom_Chatz")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "VenomOwners")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Venom_bolte_pubIic")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "xGaddar")
 
 # Random Start Images
 IMG = [
